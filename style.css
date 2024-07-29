@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+      color:rgb(237, 205, 164);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background-color: #30272c;
+   }
+   #hero-section{
+      background-color: #30272c;
+      width: 100%;
+      height: 400px;
+   }
+   .hero{
+      display: flex ;
+      flex-direction: row;
+     flex-wrap:nowrap ;
+       justify-content: center;
+   }
+   .hero img{
+      height: 400px;
+      width: auto;
+      padding-right: 50PX;
+   }
+   .hero2{
+      
+        font-weight: 400;
+        padding-top: 50px;
+        text-align:end;
+   } 
+   .subheading{
+         font-size: 30px;
+         padding: 20px;
+   }
+  .heading{
+      font-size: 50px;
+      padding: 20px;
+  }
+  .discription{
+      font-size: 20px;
+      padding: 20px;
+  }
+   .hero2 span{
+      color: #FF6969;
+      font-weight: bolder;
+   }
+   nav{
+    background-color: #30272c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 10px 30px black;
+    width: 100%;
+    z-index: 1;
+   }
+   nav ul{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    }
+   a{
+    text-decoration: none;
+   }
+   nav ul a li{
+    color: antiquewhite;
+    padding:0px 20px;
+    }
+    nav ul a li:hover{
+       color: #FF6969;
+    }
+   .logo img{
+      height: 70px;
+      padding:10px 20px;
+   }
+  .project{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #30272c;
+   }
+    .project a{
+       padding: 20px;
+       background-color:rgb(237, 205, 164);
+       width: fit-content;
+       padding: 10px 20px;
+       border-radius: 10px;
+       margin: auto;   /*use margin:auto as width:width: fit-content cancels out the text align;*/
+       font-size: 50px;
+       font-weight: 700;
+       color: #30272c;
+     } 
+     .title{
+       text-shadow: 2px 2px 2px black;
+       width: fit-content;
+       padding-bottom: 20px;
+       margin: auto;   /*use margin:auto as width:width: fit-content cancels out the text align;*/
+       font-size: 30px;
+       font-weight: 700;
+        color:#FF6969;
+        margin-top: 40px;
+        text-orientation: upright;
+     }
+     .project p{
+       padding: 20px;
+       background-color:rgb(237, 205, 164);
+       width: fit-content;
+       padding: 10px 20px;
+       border-radius: 10px;
+       margin: auto;   /*use margin:auto as width:width: fit-content cancels out the text align;*/
+       font-size: 50px;
+       font-weight: 700;
+       color: #30272c;
+     } 
+     .footer{
+       width: fit-content;
+       text-align: end;
+     }
